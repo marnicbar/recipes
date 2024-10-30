@@ -2,3 +2,8 @@ baseURL: https://rezepte.mariusbaer.de/
 languageCode: de-DE
 title: Meine Rezepte
 theme: ["PaperMod"]
+
+# Workaround for .Site.Social deprecation from
+# https://github.com/adityatelange/hugo-PaperMod/issues/1573#issuecomment-2297488347
+params:
+  social: true
