@@ -1,3 +1,4 @@
-baseURL: https://recipes.mariusbaer.de/
-languageCode: en-us
-title: My New Hugo Site
+baseURL: https://rezepte.mariusbaer.de/
+languageCode: de-DE
+title: Meine Rezepte
+theme: ["PaperMod"]
