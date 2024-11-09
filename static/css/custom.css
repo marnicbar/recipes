@@ -1,0 +1,25 @@
+.recipe-ingredients {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.ingredients-table {
+    width: 300px;
+    /* Adjust width as needed */
+    border-collapse: collapse;
+}
+.ingredients-table td {
+    padding: 5px 10px;
+    vertical-align: top;
+  }
+
+.ingredient-quantity {
+    text-align: right;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+.ingredient-name {
+    text-align: left;
+    padding-left: 10px;
+}
