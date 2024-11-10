@@ -1,6 +1,10 @@
-.recipe-ingredients {
-    margin-top: 2em;
+#recipe-ingredients {
+    margin-top: 1em;
     margin-bottom: 2em;
+}
+
+#recipe-ingredients h2 {
+    margin-top: 0.5em;
 }
 
 .ingredients-table {
@@ -13,7 +17,7 @@
     vertical-align: top;
   }
 
-.ingredient-quantity {
+.ingredient-amount {
     text-align: right;
     white-space: nowrap;
     font-weight: bold;

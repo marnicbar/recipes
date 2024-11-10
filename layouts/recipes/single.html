@@ -1,5 +1,11 @@
 {{- define "main" }}
 
+<!-- Custom CSS -->
+<link rel="stylesheet" href="{{ "css/recipe.css" | relURL }}">
+
+<!-- Custom JavaScript -->
+<script src="{{ "js/recipe.js" | relURL }}" defer></script>
+
 <article class="post-single">
   <header class="post-header">
     {{ partial "breadcrumbs.html" . }}
@@ -35,7 +41,10 @@
   {{- end }}
 
   {{- if .Params.ingredient_lists }}
-  <div class="recipe-ingredients">
+  <div id="recipe-ingredients" default-servings="{{ $.Params.servings }}">
+    <!-- Servings input field -->
+    <label for="servings-input">Portionen:</label>
+    <input type="number" id="servings-input" value="{{ .Params.servings }}" min="1" oninput="if(this.value < 1 || this.value === '') {this.value = 1; this.select()}">
     {{- range .Params.ingredient_lists }}
     {{- if .title }}
     <h2>{{ .title }}</h2>
@@ -43,14 +52,21 @@
     <table class="ingredients-table">
       {{- range .ingredients }}
       <tr>
-        <td class="ingredient-quantity">{{ index . 0 }}</td>
-        <td class="ingredient-name">{{ index . 1 }}</td>
+        <td class="ingredient-amount">
+          <span class="ingredient-quantity"  data-quantity="{{ index . 0 }}">
+            {{ replace (index . 0) "." "," }}
+        </span>
+        <span class="ingredient-unit">{{ index . 1 }}</span>
+        </td>
+        <td class="ingredient-name">{{ index . 2 }}</td>
       </tr>
       {{- end }}
     </table>
     {{- end }}
-  </div>
+    
+    </div>
   {{- end }}
+   
 
   {{- if .Content }}
   <div class="post-content">

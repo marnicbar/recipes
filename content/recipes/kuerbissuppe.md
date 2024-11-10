@@ -2,22 +2,23 @@
 date: '2024-11-09T16:20:30+01:00'
 draft: false
 title: 'Kürbissuppe'
+servings: 4
 ingredient_lists:
   - title: "Zutaten"
     ingredients:
-      - [500 g, Kürbisfleisch]
-      - [150 g, Kartoffeln]
-      - [1 Zehe, Knoblauch]
-      - [½, Zwiebel]
-      - [1 Stück, Ingwer (walnussgroß)]
-      - [50 g, Butter]
-      - [700 g, Wasser]
-      - [1 Würfel, Gemüsebrühe (1 EL)]
-      - [200 g, Sahne]
-      - [1 TL, Salz]
-      - [½ TL, Pfeffer]
-      - [3 Prisen, Muskatnuss]
-      - [1 EL, Kürbiskernöl]
+      - [500, "g", "Kürbisfleisch"]
+      - [150, "g", "Kartoffeln"]
+      - [1, "Zehe", "Knoblauch"]
+      - [0.5, "", "Zwiebel"]
+      - [1, "Stück", "Ingwer (walnussgroß)"]
+      - [50, "g", "Butter"]
+      - [700, "g", "Wasser"]
+      - [1, "Würfel", "Gemüsebrühe (1 EL)"]
+      - [200, "g", "Sahne"]
+      - [1, "TL", "Salz"]
+      - [0.5, "TL", "Pfeffer"]
+      - [3, "Prisen", "Muskatnuss"]
+      - [1, "EL", "Kürbiskernöl"]
 ---
 
 - Knoblauchzehe, Zwiebel und Ingwer in den Mixtopf geben und für 5 Sek. bei Stufe 5 zerkleinern.<br>  
