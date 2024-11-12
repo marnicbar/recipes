@@ -44,7 +44,21 @@
   <div id="recipe-ingredients" default-servings="{{ $.Params.servings }}">
     <!-- Servings input field -->
     <label for="servings-input">Portionen:</label>
-    <input type="number" id="servings-input" value="{{ .Params.servings }}" min="1" oninput="if(this.value < 1 || this.value === '') {this.value = 1; this.select()}">
+    <div class="input-container">
+      <button class="minus" aria-label="Decrease by one" {{ if le .Params.servings 1 }}disabled{{ end }}>
+        <svg width="16" height="2" viewBox="0 0 16 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <line y1="1" x2="16" y2="1" stroke-width="2" class="icon" />
+        </svg>
+      </button>
+      <input type="number" id="servings-input" value="{{ .Params.servings }}" min="1"
+        oninput="if(this.value < 1 || this.value === '') {this.value = 1; this.select()}">
+      <button class="plus" aria-label="Increase by one">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon">
+            <line x1="8" x2="8" y2="16" stroke-width="2" />
+            <line y1="8" x2="16" y2="8"stroke-width="2" />
+          </svg>
+      </button>
+    </div>
     {{- range .Params.ingredient_lists }}
     {{- if .title }}
     <h2>{{ .title }}</h2>
@@ -53,20 +67,20 @@
       {{- range .ingredients }}
       <tr>
         <td class="ingredient-amount">
-          <span class="ingredient-quantity"  data-quantity="{{ index . 0 }}">
+          <span class="ingredient-quantity" data-quantity="{{ index . 0 }}">
             {{ replace (index . 0) "." "," }}
-        </span>
-        <span class="ingredient-unit">{{ index . 1 }}</span>
+          </span>
+          <span class="ingredient-unit">{{ index . 1 }}</span>
         </td>
         <td class="ingredient-name">{{ index . 2 }}</td>
       </tr>
       {{- end }}
     </table>
     {{- end }}
-    
-    </div>
+
+  </div>
   {{- end }}
-   
+
 
   {{- if .Content }}
   <div class="post-content">

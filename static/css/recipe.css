@@ -26,3 +26,66 @@
     text-align: left;
     padding-left: 10px;
 }
+
+label[for="servings-input"] {
+    font-weight: bold;
+}
+
+#recipe-ingredients input {
+    padding: 4px 10px;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    width: 3.5em;
+    color: var(--primary);
+    font-weight: bold;
+    border: 2px solid var(--tertiary);
+    border-radius: var(--radius);
+    text-align: right;
+}
+
+#recipe-ingredients input:focus {
+    border-color: var(--secondary);
+}
+
+/* Remove up and down arrows from number input */
+#recipe-ingredients input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+#recipe-ingredients input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    height: 2.5rem;
+}
+
+button.minus, button.plus {
+    display: flex;
+    height: 100%;
+    aspect-ratio: 1;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--radius);
+    background-color: var(--entry);
+}
+/* Change the stroke color of the SVG inside the button */
+button.minus, button.plus svg {
+    stroke: var(--primary); /* Change this to your desired color */
+}
+
+/* Optional: Add hover and active effects */
+button.minus:hover,
+button.plus:hover {
+  border: 2px solid var(--tertiary);
+}
+
+button.minus:active,
+button.plus:active {
+  background-color: 2px solid var(--secondary);
+}
