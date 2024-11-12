@@ -3,6 +3,19 @@ languageCode: de-DE
 title: Meine Rezepte
 theme: ["PaperMod"]
 
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+menu:
+  main:
+    - identifier: search
+      name: Suche
+      url: /search/
+      weigth: 10
+
 # Workaround for .Site.Social deprecation from
 # https://github.com/adityatelange/hugo-PaperMod/issues/1573#issuecomment-2297488347
 params:
