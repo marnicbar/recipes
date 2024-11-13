@@ -1,4 +1,4 @@
-baseURL: https://rezepte.mariusbaer.de/
+baseURL: https://recipes.mariusbaer.de/
 languageCode: de-DE
 title: Meine Rezepte
 theme: ["PaperMod"]
