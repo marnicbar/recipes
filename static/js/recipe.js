@@ -11,6 +11,9 @@ document.addEventListener('DOMContentLoaded', function () {
         const servings = parseFloat(servingsInput.value);
         ingredientQuantities.forEach(function (quantityElement) {
             const baseQuantity = parseFloat(quantityElement.getAttribute('data-quantity'));
+            if (isNaN(baseQuantity)) {
+                return;
+            }
             quantityElement.textContent = (baseQuantity * servings / defaultServings).toLocaleString('de-DE', { useGrouping: false });
         });
     }
@@ -19,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
     minusButton.addEventListener("click", () => {
         if (--servingsInput.value <= 1) {
             minusButton.disabled = true;
-        } ;
+        };
         updateQuantities();
     });
 
