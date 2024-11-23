@@ -20,3 +20,7 @@ menu:
 # https://github.com/adityatelange/hugo-PaperMod/issues/1573#issuecomment-2297488347
 params:
   social: true
+  
+  cover:
+    responsiveImages: true
+    linkFullImages: true
