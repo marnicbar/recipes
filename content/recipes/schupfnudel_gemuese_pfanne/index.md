@@ -3,7 +3,7 @@ date: '2024-11-23T11:09:27+01:00'
 draft: false
 title: 'Schupfnudel-Gemüse-Pfanne'
 cover:
-  image: cover.jpg
+  image: test.jpg
   relative: true
 servings: 2
 ingredient_lists:
