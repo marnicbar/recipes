@@ -15,5 +15,7 @@
                 "terminal.integrated.defaultProfile.linux": "bash"
             }
         }
-    }
+    },
+    "postCreateCommand": "git submodule update --init",
+    "forwardPorts": [1313]
 }
