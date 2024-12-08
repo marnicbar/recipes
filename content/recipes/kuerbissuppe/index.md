@@ -2,6 +2,7 @@
 date: '2024-11-09T16:20:30+01:00'
 draft: false
 title: 'Kürbissuppe'
+author: Marius Bär
 servings: 4
 ingredient_lists:
   - title: "Zutaten"
