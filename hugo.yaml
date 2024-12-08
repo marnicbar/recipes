@@ -11,6 +11,10 @@ outputs:
 
 menu:
   main:
+    - identifier: categories
+      name: Kategorien
+      url: /categories/
+      weight: 20
     - identifier: search
       name: Suche
       url: /search/

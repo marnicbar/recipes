@@ -3,6 +3,7 @@ date: '2024-12-08T17:44:44Z'
 draft: false
 title: 'Selleriesalat'
 author: Frank Bär
+categories: [Salate]
 servings: 4
 ingredient_lists:
   - title: "Zutaten"

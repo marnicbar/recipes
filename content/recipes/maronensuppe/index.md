@@ -3,6 +3,7 @@ date: '2024-12-08T17:34:26Z'
 draft: false
 title: 'Maronensuppe'
 author: Frank Bär
+categories: [Suppen]
 servings: 6
 ingredient_lists:
   - title: "Zutaten"
