@@ -67,9 +67,7 @@
       {{- range .ingredients }}
       <tr>
         <td class="ingredient-amount">
-          <span class="ingredient-quantity" data-quantity="{{ index . 0 }}">
-            {{ replace (index . 0) "." "," }}
-          </span>
+          <span class="ingredient-quantity" data-quantity="{{ index . 0 }}">{{ replace (index . 0) "." "," }} </span>
           <span class="ingredient-unit">{{ index . 1 }}</span>
         </td>
         <td class="ingredient-name">{{ index . 2 }}</td>

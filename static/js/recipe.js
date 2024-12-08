@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
             if (isNaN(baseQuantity)) {
                 return;
             }
-            quantityElement.textContent = (baseQuantity * servings / defaultServings).toLocaleString('de-DE', { useGrouping: false });
+            quantityElement.textContent = (baseQuantity * servings / defaultServings).toLocaleString('de-DE', { useGrouping: false }) + " ";
         });
     }
     servingsInput.addEventListener('input', updateQuantities);
