@@ -1,0 +1,19 @@
+{
+    "name": "Hugo DevContainer",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "gitHub.copilot",
+                "gitHub.copilot-chat",
+                "streetsidesoftware.code-spell-checker",
+                "streetsidesoftware.code-spell-checker-german"
+            ],
+            "settings": {
+                "terminal.integrated.defaultProfile.linux": "bash"
+            }
+        }
+    }
+}
