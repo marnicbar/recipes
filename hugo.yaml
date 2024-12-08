@@ -28,3 +28,9 @@ params:
   cover:
     responsiveImages: true
     linkFullImages: true
+
+markup:
+  goldmark:
+    # Enable unsafe rendering to allow mixed HTML in markdown
+    renderer:
+      unsafe: true
