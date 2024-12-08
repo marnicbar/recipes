@@ -23,7 +23,7 @@ ingredient_lists:
       - [1, "EL", "Kürbiskernöl"]
 ---
 
-- Knoblauchzehe, Zwiebel und Ingwer in den Mixtopf geben und für 5 Sek. bei Stufe 5 zerkleinern.<br>  
+- Knoblauchzehe, Zwiebel und Ingwer in den Mixtopf geben und für 5 Sek. bei Stufe 5 zerkleinern.<br>
 _Ingwer zuvor senkrecht zur Faserrichtung in Scheiben schneiden, damit keine langen Fasern in der Suppe sind._
 - Butter hinzugeben und 3 Min. bei Stufe 2 und 100 °C andünsten.
 - Geschälte Kartoffeln und grob zerkleinerten Kürbis in den Mixtopf geben und für 15 Sek. bei Stufe 4 zerkleinern.
