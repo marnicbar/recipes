@@ -9,7 +9,7 @@ ingredient_lists:
   - title: "Zutaten"
     ingredients:
       - [1, "", Sellerie]
-      - [8, EL, Melfor Essig]
+      - [6, EL, Melfor Essig]
       - [4, EL, Öl (geschmacksneutral)]
       - [0.5, "", Zitronen]
       - [2, TL, Mayonnaise]
