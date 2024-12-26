@@ -21,9 +21,9 @@ ingredient_lists:
       - [150, ml, Weißwein]
       - [200, ml, Sahne]
       - [100, ml, Milch]
+      - [1, TL, Honig]
       - ["", "", Salz]
       - ["", "", Pfeffer]
-      - [1, TL, Honig]
       - ["", "", Zimt]
       - ["", "", Thymian]
       - ["", "", Muskatnuss]
@@ -33,6 +33,5 @@ ingredient_lists:
 - Butter und Olivenöl hinzugeben und 3 Min. bei Stufe 2 und 100 °C andünsten.
 - Maronen, Möhre, Lauch und Sellerie in den Mixtopf geben und für 15 Sek. bei Stufe 4 zerkleinern.
 - Gemüsebrühe und Weißwein hinzugeben und 20 Min. bei Stufe 1 und 100 °C kochen.
-- Sahne, Salz, Pfeffer und Muskatnuss hinzugeben und 40 Sek. auf Stufe 10 pürieren.
-- Sahne, Milch, Salz, Pfeffer, Honig und Gewürze hinzugeben und 30 Sek. auf Stufe 10 pürieren.
+- Sahne, Milch, Honig, Salz und Gewürze hinzugeben und 40 Sek. auf Stufe 10 pürieren.
 - Suppe servieren und nach belieben mit Sahne garnieren.
