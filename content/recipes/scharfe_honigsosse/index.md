@@ -4,9 +4,6 @@ draft: false
 title: "Scharfe Honigsoße"
 author: "Frank Bär"
 categories: [Soßen]
-cover:
-  image: cover.jpg
-  relative: true
 servings: 4
 ingredient_lists:
   - title: "Zutaten"
