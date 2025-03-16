@@ -3,7 +3,7 @@ date: "2025-03-16T11:21:26Z"
 draft: false
 title: Spinat-Lasagne
 author: Marius Bär
-categories: [Hauptgericht]
+categories: [Hauptgerichte]
 servings: 4
 ingredient_lists:
   - title: Zutaten (Lasagne)
