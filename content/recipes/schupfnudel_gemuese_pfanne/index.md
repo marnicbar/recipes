@@ -3,6 +3,7 @@ date: '2024-11-23T11:09:27+01:00'
 draft: false
 title: 'Schupfnudel-Gemüse-Pfanne'
 author: Marius Bär
+categories: [Hauptgerichte]
 cover:
   image: cover.jpg
   relative: true
