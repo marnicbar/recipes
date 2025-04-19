@@ -1,6 +1,6 @@
 FROM ubuntu:24.04
 
-ARG HUGO_VERSION="0.139.3"
+ARG HUGO_VERSION="0.146.5"
 # Use Docker's $TARGETARCH to determine the system architecture
 ARG TARGETARCH
 ARG HUGO_URL="https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_linux-${TARGETARCH}.deb"
