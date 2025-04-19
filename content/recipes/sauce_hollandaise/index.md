@@ -11,7 +11,7 @@ ingredient_lists:
       - [125, g, Butter]
       - [4, "", Eigelb]
       - [50, g, Weißwein]
-      - [20, g, Wasser (ideal vom Spargelkochen)]
+      - [20, g, Wasser (idealerweise vom Spargelkochen)]
       - ["", "", Zitronensaft]
       - [1, Prise, Zucker]
       - ["", "", Salz]
