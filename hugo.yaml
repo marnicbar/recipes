@@ -1,6 +1,6 @@
 baseURL: https://rezepte.mariusbaer.de/
 languageCode: de-DE
-title: Meine Rezepte
+title: Bär's Rezepte
 theme: ["PaperMod"]
 
 outputs:
