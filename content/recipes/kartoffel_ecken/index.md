@@ -1,6 +1,6 @@
 ---
 date: "2025-10-22T19:55:18Z"
-draft: true
+draft: false
 title: "Knusprige Kartoffel-Ecken"
 author: Marius Bär
 categories: [Hauptgerichte]
