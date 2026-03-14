@@ -1,6 +1,6 @@
 ---
 date: "2026-03-14T16:41:53Z"
-draft: true
+draft: false
 title: "Kichererbsen-Feta-Salat"
 author: "Chiara Bär"
 categories: [Salate]
