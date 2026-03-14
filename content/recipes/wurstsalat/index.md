@@ -8,10 +8,6 @@ cover:
   image: cover.jpg
   relative: true
 servings: 4
-prep_time: 10
-rest_time: 0
-cook_time: 0
-total_time: 10
 ingredient_lists:
   - title: Salat
     ingredients:
