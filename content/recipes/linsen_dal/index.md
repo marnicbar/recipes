@@ -1,8 +1,8 @@
 ---
 date: "2026-03-14T14:26:45Z"
-draft: true
+draft: false
 title: "Rotes Linsen Dal mit Spinat"
-author: ""
+author: "Chiara Bär"
 categories: [Hauptgerichte]
 cover:
   image: cover.jpg
