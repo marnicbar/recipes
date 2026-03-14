@@ -3,7 +3,7 @@ date: "2026-03-14T16:45:09Z"
 draft: false
 title: "Salatsoße auf Vorrat"
 author: "Chiara Bär"
-categories: [Saucen & Dressings]
+categories: [Soßen]
 servings: 8
 ingredient_lists:
   - title: Zutaten

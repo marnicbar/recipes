@@ -1,9 +1,9 @@
 ---
 date: "2026-03-14T15:22:01Z"
 draft: false
-title: "Maiks Dinkelbrot / Ciabatta Grundteig"
-author: "Chiara Bär"
-categories:
+title: "Dinkelbrot/Ciabatta Grundteig"
+author: "Maik Kleinspohn"
+categories: [Brot]
 cover:
   image: cover.jpg
   relative: true

@@ -3,7 +3,7 @@ date: "2026-03-14T16:56:52Z"
 draft: false
 title: "Hefeschnecken mit Zimt-Nuss-Füllung"
 author: "Chiara Bär"
-categories: [Gebäck]
+categories: [Süßgebäck]
 servings: 12
 ingredient_lists:
   - title: Hefeteig
