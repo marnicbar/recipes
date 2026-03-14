@@ -4,9 +4,6 @@ draft: false
 title: "Bagels"
 author: "Chiara Bär"
 categories: [Brot]
-cover:
-  image: cover.jpg
-  relative: true
 servings: 8
 ingredient_lists:
   - title: Zutaten

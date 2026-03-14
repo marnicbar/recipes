@@ -4,9 +4,6 @@ draft: false
 title: "Salatsoße auf Vorrat"
 author: "Chiara Bär"
 categories: [Saucen & Dressings]
-cover:
-  image: cover.jpg
-  relative: true
 servings: 8
 ingredient_lists:
   - title: Zutaten

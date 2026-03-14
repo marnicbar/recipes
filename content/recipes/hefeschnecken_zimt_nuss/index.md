@@ -4,14 +4,7 @@ draft: false
 title: "Hefeschnecken mit Zimt-Nuss-Füllung"
 author: "Chiara Bär"
 categories: [Gebäck]
-cover:
-  image: cover.jpg
-  relative: true
 servings: 12
-prep_time: 25
-rest_time: 45
-cook_time: 20
-total_time: 90
 ingredient_lists:
   - title: Hefeteig
     ingredients:

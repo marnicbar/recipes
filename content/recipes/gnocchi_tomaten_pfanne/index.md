@@ -4,9 +4,6 @@ draft: false
 title: "Gnocchi-Tomaten-Pfanne mit Frischkäse"
 author: "Chiara Bär"
 categories: [Hauptgerichte]
-cover:
-  image: cover.jpg
-  relative: true
 servings: 4
 ingredient_lists:
   - title: Zutaten

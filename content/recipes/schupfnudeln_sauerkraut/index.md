@@ -4,9 +4,6 @@ draft: false
 title: "Schupfnudeln mit Sauerkraut und Pilzen"
 author: "Chiara Bär"
 categories: [Hauptgerichte]
-cover:
-  image: cover.jpg
-  relative: true
 servings: 4
 ingredient_lists:
   - title: Zutaten

@@ -4,9 +4,6 @@ draft: false
 title: "Kichererbsen-Feta-Salat"
 author: "Chiara Bär"
 categories: [Salate]
-cover:
-  image: cover.jpg
-  relative: true
 servings: 4
 ingredient_lists:
   - title: Zutaten
